@@ -17,7 +17,6 @@ example.html
 
 coverage/
 docs/
-build/
 .rollup.cache/
 
 .github/actions/**/*.js
