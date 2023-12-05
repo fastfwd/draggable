@@ -50,7 +50,7 @@ export default function closest(node?: Node, value?: Value) {
       return current;
     }
 
-    current = current?.parentNode || null;
+    current = (current && current.parentNode) ? current.parentNode : null;
   } while (
     current != null &&
     current !== document.body &&
